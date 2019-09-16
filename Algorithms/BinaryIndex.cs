@@ -6,6 +6,8 @@ namespace Algorithms
 {
   public  class BinaryIndex : IIndexCounter
     {
+        public int P => 2;
+
         public int Next(int index)
         {
             return 2*index;

@@ -7,7 +7,7 @@ namespace Algorithms
   public  class PBinarySystem : IPSystem
     {   
 
-        public int P =>  2;
+       
 
         public int GetP(int number)
         {

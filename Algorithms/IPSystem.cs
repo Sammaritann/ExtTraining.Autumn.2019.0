@@ -6,7 +6,7 @@ namespace Algorithms
 {
   public   interface IPSystem
     {
-        int P { get; }
+       
         int GetP(int number);
     }
 }
