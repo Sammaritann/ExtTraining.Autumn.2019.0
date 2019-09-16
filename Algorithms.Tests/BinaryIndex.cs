@@ -6,7 +6,10 @@ namespace Algorithms
 {
   public  class BinaryIndex : IIndexCounter
     {
-        public int P => 2;
+        public int Count(int masLength)
+        {
+         return    masLength % 2 > 0 ? masLength / 2 : masLength /2 - 1;
+        }
 
         public int Next(int index)
         {

@@ -6,7 +6,7 @@ namespace Algorithms
 {
   public interface IIndexCounter
     {
-        int P { get; }
-        int Next(int index);
+        int Count(int masLength);
+      int Next(int index);
     }
 }

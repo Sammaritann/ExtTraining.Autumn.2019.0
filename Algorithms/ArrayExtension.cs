@@ -10,7 +10,7 @@ namespace Algorithms
 
        public static void BubbleSort( this int[] mas,IPSystem pSystem,IIndexCounter indexCounter)
         {
-            int counter = mas.Length % indexCounter.P > 0 ? mas.Length / indexCounter.P : mas.Length / indexCounter.P-1;
+            int counter = indexCounter.Count(mas.Length);
             int temp;
             for (int i = 0; i < mas.Length - 1; i++)
             {
